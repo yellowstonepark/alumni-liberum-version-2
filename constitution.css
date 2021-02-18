@@ -1,0 +1,144 @@
+/*Version 2.0*/
+/*navigation formatting*/
+.nav {
+  font-size: 110%;
+  margin-top: 35px;
+  margin-right: 10px;
+}
+
+.title {
+  font-family: 'Noto Serif', serif;
+  font-weight: 700;
+  font-size: 150%;
+}
+
+.jgf {
+  clear: both;
+  color: inherit;
+  background-image: url(https://www.acluohio.org/wp-content/uploads/2019/09/ConstitutionHeaderCloseup_1200-675.jpg);
+  background-repeat: no-repeat;
+  background-size: 99%;
+  margin-left: 0px;
+  margin-top: 0px;
+  z-index: auto;
+  min-height: 300px;
+}
+
+.tyj {
+  font-family: 'Anton', sans-serif;
+  color: white;
+  font-weight: 500;
+  background-color: black;
+  font-size: 150%;
+  opacity: 0.7;
+  margin-left: -10px;
+  padding-left: 10px;
+}
+
+.orange {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.orange {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+}
+
+.orange:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+/*formatting for the position of the logo*/
+#logo {
+  float: left;
+  margin-top: -40px;
+  margin-left: -5px;
+}
+
+/*paragraph formatting*/
+.Paragragh {
+    float left;
+    font-size: 110%;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #00008B;
+    background-color: #F5F5DC;
+    font-family: 'Anton', sans-serif;
+}
+
+/*more formatting for the navigation*/
+.organization {
+  padding: 0px, 80px, 1000px;
+  height: auto;
+  length: 500px;
+  overflow: hidden;
+  word-spacing: 20px;
+}
+
+
+/*formatting for the actual constitution section*/
+.The-Constitution {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 99%;
+  min-height: 600px;
+  background-color: white;
+  float: left;
+}
+
+/*formatting for anything that has a "heading 1"*/
+h1 {
+  color: black;
+  text-shadow: 5px 2px 4px orange;
+  padding-top: 15px;
+  border-style: hidden;
+  border-width: 10px;
+  font-size: 250%;
+}
+
+/*formatting for anything that has a "heading 2"*/
+h2 {
+  background-color:#196767;
+  font-size: 180%;
+}
+
+h3 {
+  font-size: 280%;
+}
+
+h4 {
+  font-size: 200%;
+}
+
+/*formatting for paragraphs*/
+p {
+  cursor: text;
+}
+
+body {
+  animation-name: fadeInDown;
+  animation-duration: 2s;
+  animation-delay: -0.05s;
+}
+
+.footer {
+  clear: both;
+  font-weight: 500;
+  color: gray;
+  background-color: #d9d9d9;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 100%;
+}
